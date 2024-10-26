@@ -2,8 +2,8 @@ import React from 'react';
 import Hero from '../component/Hero';
 import Header from '../component/Header';
 import About from '../component/About';
-import Services from '../component/services';
-import Footer from '../component/footer';
+import Services from '../component/Services';
+import Footer from '../component/Footer';
 
 
 
