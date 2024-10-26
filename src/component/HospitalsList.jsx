@@ -1,0 +1,62 @@
+const HospitalsList = {
+    recommended: [
+      {
+        name: 'Hospital A',
+        address: '70 Pleasant Valley Street, Methuen MA 1844',
+        phone: '+108093497609',
+        distance: '0.6 km',
+        time: '5 mins',
+        rating: 4.5,
+        image: 'hospital-image-url',
+      },
+      {
+        name: 'Hospital B',
+        address: '742 Main Street, North Oxford MA 1537',
+        phone: '+600350042877',
+        distance: '1.6 km',
+        time: '8 mins',
+        rating: 4.0,
+        image: 'hospital-image-url',
+      },
+      {
+        name: 'Hospital C',
+        address: '1000 State Route 36, Hornell NY 14843',
+        phone: '+287964864321',
+        distance: '1.4 km',
+        time: '12 mins',
+        rating: 3.5,
+        image: 'hospital-image-url',
+      },
+      {
+        name: 'Hospital D',
+        address: '58 Brooklawn Village Way, Danvers MA 1923',
+        phone: '+425769178448',
+        distance: '1.2 km',
+        time: '10 mins',
+        rating: 4.8,
+        image: 'hospital-image-url',
+      },
+    ],
+    other: [
+      {
+        name: 'Hospital X',
+        address: '279 Troy Road, East Greenbush NY 12061',
+        phone: '+492431926059',
+        distance: '3 km',
+        time: '20 mins',
+        rating: 4.2,
+        image: 'hospital-image-url',
+      },
+      {
+        name: 'Hospital Y',
+        address: '425 Route 34, Macedon NY 14502',
+        phone: '+509344018021',
+        distance: '5 km',
+        time: '25 mins',
+        rating: 3.8,
+        image: 'hospital-image-url',
+      },
+    ],
+  };
+
+  export default HospitalsList

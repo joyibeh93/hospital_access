@@ -1,0 +1,120 @@
+/* Hospital card container */
+.hospital-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 16px auto;
+    transition: all 0.3s ease;
+  }
+  
+  @media (min-width: 600px) {
+    .hospital-card {
+      max-width: 600px;
+      flex-direction: row; /* Side-by-side layout on tablets and up */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .hospital-card {
+      max-width: 800px; /* Wider max-width on larger screens */
+    }
+  }
+  
+  /* Hospital image */
+  .image-container {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  .hospital-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  @media (min-width: 600px) {
+    .image-container {
+      width: 33%;
+      margin-bottom: 0;
+    }
+  
+    .hospital-image {
+      height: auto;
+    }
+  }
+  
+  /* Hospital details */
+  .hospital-details {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .hospital-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2563eb; /* Blue color */
+  }
+  
+  .hospital-address,
+  .hospital-phone {
+    font-size: 0.875rem;
+    color: #4b5563; /* Dark gray for text */
+  }
+  
+  .hospital-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin: 8px 0;
+  }
+  
+  /* Rating stars */
+  .hospital-rating {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .star {
+    font-size: 1rem;
+    color: #d1d5db; /* Light gray */
+  }
+  
+  .star-filled {
+    color: #f59e0b; /* Yellow for filled stars */
+  }
+  
+  /* Responsive design for mobile screens */
+  @media (max-width: 599px) {
+    .hospital-card {
+      max-width: 100%; /* Full width on small screens */
+      padding: 12px;
+    }
+  
+    .hospital-details {
+      padding: 12px;
+    }
+  
+    .hospital-name {
+      font-size: 1rem;
+    }
+  
+    .hospital-meta {
+      font-size: 0.8rem;
+    }
+  
+    .hospital-address, 
+    .hospital-phone {
+      font-size: 0.75rem;
+    }
+  }
+  

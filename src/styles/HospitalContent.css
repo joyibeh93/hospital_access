@@ -1,0 +1,60 @@
+/* Container styles */
+.hospital-container-wrapper {
+    min-height: 100vh;
+    background-color: #ebf5ff; /* bg-blue-50 */
+    padding: 1rem; /* p-4 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Media query for md breakpoint */
+  @media (min-width: 768px) {
+    .hospital-container-wrapper {
+      padding: 2rem; /* md:p-8 */
+    }
+  }
+  
+  /* Section styles */
+  section {
+    margin-top: 1.5rem; /* mt-6 */
+  }
+  
+  section:last-child {
+    margin-top: 3rem; /* mt-12 */
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600; /* font-semibold */
+    color: #1d4ed8; /* text-blue-700 */
+    margin-bottom: 1rem; /* mb-4 */
+  }
+  
+  /* Grid container styles */
+  .hospital-grid-container {
+    display: grid;
+    gap: 3.5rem; /* gap-6 */
+    grid-template-columns: 1fr; /* grid-cols-1 */
+  }
+  
+  /* Media queries for responsive grid */
+  @media (min-width: 768px) {
+    .hospital-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .hospital-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* lg:grid-cols-2 */
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .hospital-grid-container {
+      grid-template-columns: repeat(2, 1fr); /* xl:grid-cols-2 */
+    }
+  }
