@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../styles/footer.css'
 
-function footer() {
+function Footer() {
   return (
     <>
      <footer className="footer">
@@ -33,4 +33,4 @@ function footer() {
   )
 }
 
-export default footer
+export default Footer

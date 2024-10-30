@@ -6,15 +6,14 @@ import Services from '../component/Services';
 import Footer from '../component/Footer';
 
 
-
 function Home() {
   return (
     <>
-    <Header />
-    <Hero />
+    <Header/>
+    <Hero/>
     <About/>
-    <Services />
-    <Footer />
+    <Services/>
+    <Footer/>
     </>
   )
 }
