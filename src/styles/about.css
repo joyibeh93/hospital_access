@@ -25,6 +25,12 @@
     margin-bottom: 2em;
     text-align:center;
   }
+  .about-side-card {
+    margin: 20px auto;
+  }
+  .about-side-card .about-img {
+    width: 90%;
+  }
 
 
   @media (min-width: 768px) {
