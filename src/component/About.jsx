@@ -1,27 +1,18 @@
 import React from "react";
+import Nurses from "../assets/unth-nurses.jpg"
 
 import "../styles/about.css";
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us" id='about-us'>
       <h2 className="about-h2">About Us</h2>
       <div className="about-container">
         <div className="about-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          vulputate libero et velit interdum, ac aliquet odio mattis. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-          libero et velit interdum, ac aliquet odio mattis. Class aptent taciti
-          sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut
-          commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac,
-          vestibulum eu nisl.
+         We are dedicated to providing compassionate, high-quality healthcare services to within your community, driven by our values of compassion, excellence, integrity, innovation, and collaboration. We offer a wide range of services, including emergency care, surgical services, maternity care, and more. Embracing new technologies for better care.
         </div>
-        <div className="side-card">
-          <div className="card">
-            <div className="image-placeholder"></div>
-            <p className="card-title">Borem ipsum</p>
-          </div>
+        <div className="about-side-card">
+          <img src={Nurses} alt="img" className="about-img" />
         </div>
       </div>
     </div>

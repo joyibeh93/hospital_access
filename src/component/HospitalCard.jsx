@@ -9,6 +9,8 @@ const Hospital = ({hospital}) => {
   // const hospital = location.state?.hospitalN;
 
   // Handle the case where hospital data is missing
+
+  console.log(hospital)
   if (!hospital) {
     return <div>Hospital information not found</div>;
   }
