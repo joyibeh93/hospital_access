@@ -1,7 +1,8 @@
 import React from 'react'
 import HospitalContent from '../component/HospitalContent'
 import Header from '../component/Header'
-import Footer from '../component/Footer'
+import Footer from '../component/Footer';
+
 
 function Result() {
   return (
