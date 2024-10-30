@@ -1,9 +1,9 @@
 import React from 'react';
-import Hero from '../component/Hero';
-import Header from '../component/Header';
-import About from '../component/About';
-import Services from '../component/Services';
-import Footer from '../component/Footer';
+import Hero from '../components/Hero';
+import Header from '../components/Header';
+import About from '../components/About';
+import Services from '../components/Services';
+import Footer from '../components/Footer';
 
 
 function Home() {
