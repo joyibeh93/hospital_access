@@ -2,8 +2,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 
-import "../styles/Hospitalcard.css"; // Ensure this file exists
-
+import "../styles/HospitalCard.css";
 const Hospital = () => {
   const location = useLocation();
   const hospital = location.state?.hospital;
