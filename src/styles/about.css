@@ -21,7 +21,7 @@
     color: #333;
     line-height: 2rem;
     width: 90%;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: 2em;
     text-align:center;
   }
@@ -48,6 +48,7 @@
     .about-content {
       width: 40%;
       line-height: 1.5em;
+
     }
 
     .about-side-card {

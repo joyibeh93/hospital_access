@@ -1,10 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import hospitalImage from "../assets/hospitalImage.png";
 import "../styles/HospitalCards.css";
 
 const HospitalCards = ({ hospital }) => {
-
   if (!hospital) {
     return <div>Loading...</div>;
   }
@@ -19,12 +18,10 @@ const HospitalCards = ({ hospital }) => {
         />
       </div>
       <div className="hospital-details">
-        {/* Using Link for hospital name to enable navigation */}
-        <Link to={`/hospital/${hospital.name}`} className="hospital-name">
+        <Link to={`/hospital/${hospital.name}`} state={{ hospital }} className="hospital-name">
           {hospital.name}
         </Link>
         <p className="hospital-address">{hospital.address}</p>
-
         <p className="hospital-phone">Phone: {hospital.phone}</p>
         <div className="hospital-meta">
           <span>Distance: {hospital.distance}</span>
