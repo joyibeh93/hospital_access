@@ -13,10 +13,11 @@ const Hero = () => {
   const [coordinates, setCoordinates] = useState(null); // Store location coordinates
   const navigate = useNavigate();
 
-  const handleFormSubmit = (event) => {
-    event.preventDefault();
+  const handleFormSubmit = (formData) => {
+    console.log('Submitted Data:', formData);
     navigate('/result');
   };
+
 
   return (
     <>

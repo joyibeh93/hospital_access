@@ -105,6 +105,15 @@
     margin-left: 20px;
   }
 
+  /* Styling error in form */
+
+  .error-text {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 4px;
+  }
+
+
   @media (min-width: 768px) {
     .hero-container {
       flex-direction: row;

@@ -1,7 +1,11 @@
 // LocationLink.js
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const LocationLink = ({ setCoordinates }) => {
+  const navigate = useNavigate();
   const getLocation = (event) => {
     event.preventDefault(); // Prevents link navigation behavior
     if (navigator.geolocation) {
@@ -10,6 +14,7 @@ const LocationLink = ({ setCoordinates }) => {
           const { latitude, longitude } = position.coords;
           setCoordinates({ latitude, longitude });
           console.log("User's Location:", latitude, longitude); // Optional: Remove this in production
+          navigate('/result')
         },
         (error) => {
           console.error("Error retrieving location:", error);
